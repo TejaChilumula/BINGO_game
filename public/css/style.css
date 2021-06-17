@@ -1,0 +1,115 @@
+td{
+    border: none;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+    text-decoration-color: yellow;
+    font-weight: bold;
+    font-size: large;
+    
+   
+   
+    
+   }
+   .btttn{
+    
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+    text-decoration-color: yellow;
+    font-weight: bold;
+    font-size: large;
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.5),
+    5px 5px 10px rgba(70, 70, 70, 0.12);
+    
+    top:50%;
+    left:50%;
+    border-radius: 50%;
+    border: 6px solid #ececec;
+    outline:none;
+
+   }
+   .board{
+       margin:0px auto;
+       
+     
+   }
+   h1{
+       align-content: center;
+       margin-left:auto;
+       color:rgba(255, 255, 255, 0.5)
+   }
+   .highlight1{
+       background-color:#606060FF;
+   }
+   .highlight2{
+       background-color:#ADEFD1FF;
+   }
+   .highlight3{
+    background-color:#00203FFF;
+}
+   p{
+       border:#5B84B1FF;
+   }
+   .cross {
+       position: relative;
+       display: inline-block;
+   }
+   .cross::before, .cross::after {
+       content: '';
+       width: 100%;
+       position : absolute;
+       top:50%;
+       right:0%;
+   }
+   .cross::before {
+       border-bottom: 2px solid black;
+       -webkit-transform: skewY(-45deg);
+       transform: skewY(-45deg);
+   }
+   .cross::after {
+       border-bottom: 2px solid black;
+       -webkit-transform: skewY(45deg);
+       transform: skewY(45deg);}
+.jumbotron{
+    background-image: url("/source/jumbo.jpg");
+    height: 35vh;
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+    padding: 0!important;
+    width: 100%;
+    border-radius: 0px!important;
+    text-align:center;
+
+}
+#initialscreen , #gamescreen {
+    background-color: #152238;
+}
+
+body{
+    background-color:#152238;
+}
+.btn-success{
+    background-color: black;
+}
+.b{
+    border: 1px solid black;
+    width: 45px;
+    height: 45px;
+    align-items: center;
+    text-align: center;
+    text-decoration-color: yellow;
+    font-weight: bold;
+    font-size: large;
+
+   }
+h2{
+       color: beige;
+   }
+#showTurn{
+    color : beige;
+    text-decoration-color: #ececec;
+}
